@@ -1,0 +1,103 @@
+.long {
+    height: 700px;
+    background-color: rgb(244, 253, 255);
+}
+.move {
+    float:  right;
+    padding-top: 20%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 4vh;
+    padding-left: 25%;
+}
+form {
+    width: 380px;
+    height: 350px;
+    border: 0px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 13%;
+    background-color: white;
+    box-shadow: 0px 1px 20px 0px silver;
+    margin-left: 15%;
+}
+input[type=text] {
+    width: 350px;
+    height: 60px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid silver;
+}
+.ct {
+    width: 350px;
+    height: 60px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid silver;
+ 
+}    
+ 
+
+.bt {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(3, 184, 48);
+    color: white;
+    border: none;
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+  }
+a:hover {
+   text-decoration: underline;
+}   
+.perfect {
+ margin-left: 15%; 
+ margin-top: 5%;
+ color: black;
+}
+input[type=password] {
+    width: 98%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background-color: rgb(241, 238, 238);
+}
+input[type=password1]{
+   width: 48%;
+   height: 40px;
+   border: 1px solid silver;
+   background-color: rgb(241, 238, 238);
+   border-radius: 5px;
+}
+
+.box {
+   width: 18%;
+   border: 1px solid silver;
+   padding: 5px;
+   border-radius: 5px;
+}
+.modal {
+   
+   box-shadow: 0px 10px 20px 0px silver;
+}
+.bt1 {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    border-radius: 5px; 
+    border: 0px;
+    background-color: rgb(3, 184, 48); 
+    margin-bottom: 10px;
+} 
+input[type=text]:focus {
+     border: 2px solid rgb(154, 250, 253);
+}
+
